@@ -1,5 +1,5 @@
 # www2023tiger
-Codes for WWW 2023 paper "TIGER: Temporal Interaction Graph Embedding with Restarts"
+Codes for WWW 2023 paper "TIGER: Temporal Interaction Graph Embedding with Restarts" [arXiv](https://arxiv.org/abs/2302.06057)
 
 # Data
 
@@ -24,3 +24,14 @@ Node Classification
 python train_supervised.py --code [CODE]
 ```
 Here, [CODE] is the HASH code of a trained model with `train_self_supervised.py`.
+
+# Cite
+
+```
+@inproceedings{zhang2023tiger,
+  title={TIGER: Temporal Interaction Graph Embedding with Restarts},
+  author={Zhang, Yao and Xiong, Yun and Liao, Yongxiang and Sun, Yiheng and Jin, Yucheng and Zheng, Xuehao and Zhu, Yangyong},
+  booktitle={ACM Web Conference},
+  year={2023}
+}
+```
